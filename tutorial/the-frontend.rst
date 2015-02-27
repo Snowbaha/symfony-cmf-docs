@@ -122,7 +122,7 @@ first level of child items. Modify your fixtures to declare a root element
 to which you will add the existing ``Home`` page and an additional ``About`` page::
 
     // src/Acme/BasicCmsBundle/DataFixtures/Phpcr/LoadPageData.php
-    namespace Acme\DemoBundle\DataFixtures\PHPCR;
+    namespace Acme\BasicCmsBundle\DataFixtures\PHPCR;
 
     use Doctrine\Common\DataFixtures\FixtureInterface;
     use Doctrine\Common\Persistence\ObjectManager;
